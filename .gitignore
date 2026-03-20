@@ -450,5 +450,9 @@ install
 # Tools
 tools/ImageCropper/**/*.png
 
+# Local packaging outputs
+/mpelb.exe
+/打卡-签退.json
+
 config
 debug
