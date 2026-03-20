@@ -131,6 +131,10 @@ def install_chores():
         working_dir / "LICENSE",
         install_path,
     )
+    shutil.copy2(
+        working_dir / "改名字.py",
+        install_path,
+    )
 
 
 def install_agent():
